@@ -54,24 +54,73 @@
 // let description1 = `${country} is in  ${continent} and its ${population} people speak ${language} 
 // }`
 
-// // const markWeight = 78;
-// // const markHeight = 1.69;
-// // // const johnWeight = 92;
-// // // const johnHeight = 1.95;
+//  console.log(markBMI)
 
+//  const johnBMI =  johnWeight / (johnHeight ** 2);
 
-// // // const markBMI =  markWeight / (markHeight ** 2);
-// // // console.log(markBMI)
-// // // const johnBMI =  johnWeight / (johnHeight ** 2);
-// // // console.log(johnBMI)
-
-// // // let markHigherBMI = (markBMI > johnBMI );
-// // // console.log(markHigherBMI)
-// // let firstName = "this";
-// // const jonasNew = `I'm ${firstName} and this is a operation ${markHeight + markWeight}`
-// // console.log(jonasNew)
+//  console.log(johnB let markHigherBMI = (markBMI > johnBMI );
+//  console.log(markHigherBMI)
+//  let firstName = "this";
+//  const jonasNew = `I'm ${firstName} and this is a operation ${markHeight + markWeight}`
+//  console.log(jonas
 
 
 // // console.log("this")
 // // // console.log()
+
+// const age = 15;
+// const isOldEnough = age >= 18;
+
+// if(age >= 18) {
+// console.log("Guy can start driving license")
+// } else { 
+//     const yearsleft = 18 - age;
+//     console.log(`Sarah is too young. wait another ${yearsleft} years`)
+// }
+
+
+// const birthYear = 1999;
+// let century;
+// if(birthYear <= 2000) {
+//     century = 20;
+    
+// } else {
+//     century = 21;
+    
+// }
+// console.log(century);
+
+
+// const population = 1000000;
+// let avgPop = 3300000
+// let populus;
+// if(population >= avgPop) {
+//     populus= ("Portugal's population is above average");
+    
+// } else {
+//     populus = `Portugal's population is ${avgPop - population} bellow average`;
+    
+// }
+// console.log(populus);
+
+// const markWeight = 78;
+// const markHeight = 1.69;
+// const johnWeight = 92;
+// const johnHeight = 1.78 
+// const markBMI =  markWeight / (markHeight ** 2);
+// const johnBMI =  johnWeight / (johnHeight ** 2);
+// let roundedMark = markBMI.toFixed(1);
+// let roundedJohn = johnBMI.toFixed(1);
+// let markHigherBMI = (markBMI > johnBMI );
+
+
+// if(markHigherBMI) {
+//     console.log(`Mark's
+//     BMI ${(roundedMark)} is higher than John's ${(roundedJohn)}!`)
+// } else {
+//     console.log(`John's ${(roundedJohn)} is higher than Mark's
+//     BMI ${(roundedMark)}!`)
+// }
+
+
 
