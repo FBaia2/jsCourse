@@ -19,10 +19,20 @@
 
 
 
-// const country = ("Portugal");
-// const population = (10000000);
-// const language = ("Portuguese");
-// const isIsland = true;
+//  const country = ("Portugal");
+//  const population = (10000000);
+//  const language = ("Portuguese");
+//  const isIsland = true;
+
+// if (!isIsland || population < 100000000 || language === "english")
+// {
+// console.log(`You should live in ${country} :)`);
+// } else {
+// console.log(`${country} does not meet your criteria :(`);
+// }
+
+
+
 // console.log(country);
 // console.log(population);
 // console.log(language);
@@ -122,5 +132,34 @@
 //     BMI ${(roundedMark)}!`)
 // }
 
+
+// const favourite = prompt("what's your favourite number?");
+
+// console.log(favourite)
+// console.log(typeof favourite)
+
+// const numNeighbours = Number(prompt("How many neighbour countries does your country have?"));
+
+// if (numNeighbours === 1) {
+//     console.log("Only 1 border!");
+// } else if(numNeighbours>1) {
+//     console.log("More then 1 border");
+// } else {
+//     console.log("no borders");
+// };
+
+
+
+// const dolphins = (10+10+10);
+// const koalas = (10+10+10);
+// let avgDolphins = (dolphins / 3)
+// let avgKoalas = (koalas / 3)
+
+// if(avgDolphins > avgKoalas && avgDolphins >= 100) {
+//     console.log("Dolphins has higher score");
+// } else if (avgDolphins < avgKoalas && avgKoalas > 100) {
+//     console.log("Koalas has higher score");
+// } else(avgDolphins === avgKoalas && (avgKoalas || avgDolphins === 100)) 
+//     console.log("It's a tie");
 
 
