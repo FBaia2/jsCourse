@@ -162,4 +162,25 @@
 // } else(avgDolphins === avgKoalas && (avgKoalas || avgDolphins === 100)) 
 //     console.log("It's a tie");
 
+// const day = "sunday";
 
+// if(day === "monday") {
+//     console.log(1);
+//     console.log(2);
+// } else if(day === "tuesday") {
+//     console.log(3);
+// } else if(day === "thursday" || day === "wednesday") {
+//     console.log(4);
+// } else if(day === "friday") {
+//     console.log(5);
+// } else if(day === "saturday" ||day === "sunday") {
+//     console.log(6);
+// } else {
+//     console.log(9);
+// }   
+
+
+const age = 23;
+
+const drink = age >= 18 ? "wine" : "water";
+console.log(drink);
