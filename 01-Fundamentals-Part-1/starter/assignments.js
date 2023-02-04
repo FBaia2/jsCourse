@@ -180,7 +180,17 @@
 // }   
 
 
-const age = 23;
+// const age = 23;
+// const drink = age >= 18 ? "wine" : "water";
+// console.log(drink);
 
-const drink = age >= 18 ? "wine" : "water";
-console.log(drink);
+// const populationss = 130;
+// const avgPopulationss = populationss >= 33 ? "Portugal's population is above average" : "Portugal's population is below average";
+// console.log(avgPopulationss)
+
+// const bill = 500;
+// const tip = bill >= 50 && bill <= 300 ? bill * 0.15 :  bill * 0.20 
+// console.log(`The  bill is ${bill} and the tip is ${tip} the total is ${tip + bill}`);
+
+
+
