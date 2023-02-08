@@ -171,12 +171,83 @@
 // console.log(filipe);
 
 
-const calcAge = function (birthYear) {
-    return 2037 - birthYear;
-}
-const years = [1999, 2000, 2001, 2002, 2003];
+// const calcAge = function (birthYear) {
+// return 2037 - birthYear;
+// }
+// const years = [1999, 2000, 2001, 2002, 2003];
 
 
-const ages = [calcAge(years[0]),calcAge(years[0]), calcAge(years[0])];
-console.log(ages)
+// const ages = [calcAge(years[0]),calcAge(years[0]), calcAge(years[0])];
+// console.log(ages)
 
+// const yourMom = ["this", 1, 2, 2, 2];
+// console.log(yourMom[0],yourMom[2])
+
+
+// const populations = [11, 20, 30, 40];
+
+// if (populations.length === 4) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
+
+// const percentageOfWorld = function(population) {
+//     return population * 100 / 7900;
+// };
+
+// const percentages = populations.map(percentageOfWorld);
+
+// console.log(percentages);
+
+// const neightbours = ["Portugal","France"];
+// console.log(neightbours);
+// neightbours.push("Utopia");
+// console.log(neightbours);
+// neightbours.pop();
+// console.log(neightbours);
+
+// if (!neightbours.includes("Germany")){
+//     console.log('Probably not a central European country :D')
+// } 
+// const numba1 = neightbours.indexOf("Portugal")
+// const numba2 = neightbours.indexOf("France")
+// console.log(numba1, numba2);
+
+// neightbours[numba1] = "Spain";
+// neightbours[numba2] = "Switzerland";
+// console.log(neightbours);
+
+// const calcTip = function (bill) {
+//     let tipPercentage = 0.15;
+//     if (bill => 50 && bill <= 300) {
+//       tipPercentage = 0.15;
+//     } else {
+//       tipPercentage = 0.20;
+//     }
+//     return bill * tipPercentage;
+//   };
+  
+//   console.log(calcTip(100)); // 15
+  
+//   const bills = [125, 555, 44];
+//   const tips = [];
+//   const total = [];
+  
+//    for (let i = 0; i < bills.length; i++) {
+//     tips[i] = calcTip(bills[i]);
+//     total[i] = bills[i] + tips[i];
+//   }
+  
+//   console.log(tips); // [18.75, 83.25, 8.8]
+//   console.log(total); // [143.75, 638.25, 52.8]
+
+const myCountry = {
+    country: "Portugal",
+    capital: "Lisbon",
+    language: "Portuguese",
+    population: "11 Million",
+    neighbours: ["Spain", "nothing to test the array"],
+    yourMom: []
+};
+console.log(myCountry)
