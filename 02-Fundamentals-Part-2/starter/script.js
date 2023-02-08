@@ -242,12 +242,63 @@
 //   console.log(tips); // [18.75, 83.25, 8.8]
 //   console.log(total); // [143.75, 638.25, 52.8]
 
-const myCountry = {
-    country: "Portugal",
-    capital: "Lisbon",
-    language: "Portuguese",
-    population: "11 Million",
-    neighbours: ["Spain", "nothing to test the array"],
-    yourMom: []
-};
-console.log(myCountry)
+// const myCountry = {
+//     country: "Portugal",
+//     capital: "Lisbon",
+//     language: "Portuguese",
+//     population: "11 Million",
+//     neighbours: ["Spain", "nothing to test the array"],
+//     yourMom: []
+// };
+// console.log(myCountry)
+
+// const jonasArray = [
+//     'Jonas',
+//     'Schmedtmann',
+//     2037 - 1991,
+//     'teacher',
+//     ['Michael', 'Peter', 'Steven']
+//   ];
+  
+//   const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     age: 2037 - 1991,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven']
+//   };
+  
+  
+
+//   const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     age: 2037 - 1991,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven']
+//   };
+//   console.log(jonas);
+  
+//   console.log(jonas.lastName);
+//   console.log(jonas['lastName']);
+  
+//   const nameKey = 'Name';
+//   console.log(jonas['first' + nameKey]);
+//   console.log(jonas['last' + nameKey]);
+  
+//   // console.log(jonas.'last' + nameKey)
+  
+//   const interestedIn = prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job, and friends');
+  
+//   if (jonas[interestedIn]) {
+//     console.log(jonas[interestedIn]);
+//   } else {
+//     console.log('Wrong request! Choose between firstName, lastName, age, job, and friends');
+//   }
+  
+//   jonas.location = 'Portugal';
+//   jonas['twitter'] = '@jonasschmedtman';
+//   console.log(jonas);
+  
+// console.log(`${jonas.firstName} has ${jonas.friends.length}
+//  friends and his best frined is called ${jonas.friends[0]} `);
