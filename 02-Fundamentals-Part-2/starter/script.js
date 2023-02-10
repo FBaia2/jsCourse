@@ -302,3 +302,144 @@
   
 // console.log(`${jonas.firstName} has ${jonas.friends.length}
 //  friends and his best frined is called ${jonas.friends[0]} `);
+
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     birthYeah: 1991,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven'],
+//     hasDriversLicense: true,
+  
+//     // calcAge: function (birthYeah) {
+//     //   return 2037 - birthYeah;
+//     // }
+  
+//     // calcAge: function () {
+//     //   // console.log(this);
+//     //   return 2037 - this.birthYeah;
+//     // }
+  
+//     calcAge: function () {
+//       this.age = 2037 - this.birthYeah;
+//       return this.age;
+//     },
+  
+//     getSummary: function () {
+//       return `${this.firstName} is a ${this.calcAge()}-year old ${jonas.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license.`
+//     }
+//   };
+  
+//   console.log(jonas.calcAge());
+  
+//   console.log(jonas.age);
+//   console.log(jonas.age);
+//   console.log(jonas.age);
+//   console.log(jonas.getSummary());
+
+// const myCountry = {
+//     country: "Portugal",
+//     capital: "Lisbon",
+//     language: "Portuguese",
+//     population: "11 Million",
+//     neighbours: ["Spain", "nothing to test the array"],
+//     describe: function() {
+//         return `${this.country} is my country and it's capital is ${this.capital}`
+//     }
+// };
+// console.log(myCountry.describe());
+
+
+// let mark = {
+//     fullName: 'Mark Miller',
+//     mass: 78,
+//     height: 1.69,
+//     calcBMI: function() {
+//         this.BMI = this.mass / (this.height * this.height);
+//         return this.BMI;
+//     }
+// };
+
+// let john = {
+//     fullName: 'John Smith',
+//     mass: 92,
+//     height: 1.95,
+//     calcBMI: function() {
+//         this.BMI = this.mass / (this.height * this.height);
+//         return this.BMI;
+//     }
+// };
+
+// if (mark.calcBMI() > john.calcBMI()) {
+//     console.log(`${mark.fullName}'s BMI (${mark.BMI.toFixed(2)}) is higher than ${john.fullName}'s (${john.BMI.toFixed(2)})!`);
+// } else if (mark.BMI < john.BMI) {
+//     console.log(`${john.fullName}'s BMI (${john.BMI.toFixed(2)}) is higher than ${mark.fullName}'s (${mark.BMI.toFixed(2)})!`);
+// } else {
+//     console.log(`${mark.fullName} and ${john.fullName} have the same BMI (${mark.BMI.toFixed(2)})`);
+// }
+
+
+// for (let i = 1; i <= 50; i++) {
+//   console.log(`'Voter number ${i} is currently voting'`);
+// }
+
+// const jonas = [
+//     "jonas",
+//     "baia",
+//     2030-1999,
+//     "tech",
+//     ["filipe", "joao", "albert"]
+// ];
+
+// const yourmom = []
+
+// for (let i = 0; i <= jonas.length; i++) {
+//     console.log(jonas[i], typeof jonas[i]);
+//     yourmom[i] = typeof jonas[i];
+// }
+// console.log(yourmom)
+
+
+// const years = [1999, 2000, 2003, 2020];
+// const ages = [];
+
+// for (let i = 0; i < years.length; i++) {
+//     ages.push(2037 - years[i]);
+// }
+// ages.push(1);
+// console.log(ages);
+
+//  const listOfNeighbours = [
+//     ['Canada', 'Mexico'], 
+//     ['Spain'],
+//      ['Norway', 'Sweden', 'Russia']];
+
+//      for (let i = 0; i < listOfNeighbours.length; i++) {
+//         for (let j = 0; j < listOfNeighbours[i].length; j++) {
+//           console.log(`Neighbour: ${listOfNeighbours[i][j]}`);
+//         }
+//       }
+// let rep = 1;
+// while (rep <= 100) {
+//     console.log(rep);
+//     rep++;
+// }
+
+
+
+
+const bills = [ 22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips = [];
+const totals = [];
+
+
+const calcTip = function (bill) {
+        let tipPercentage = 0.15;
+        if (bill => 50 && bill <= 300) {
+        tipPercentage = 0.15;
+        } else {
+        tipPercentage = 0.20;
+        }
+        return bill * tipPercentage;
+    };
+
